@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/general_settings_header">
+        <SwitchPreferenceCompat
+            app:key="@string/dark_theme_key"
+            app:title="@string/dark_theme_title"/>
+
+    <Preference
+        android:title="@string/rate_title"
+        android:icon="@drawable/ic_rate_review_24dp"
+        android:key="@string/rate_key">
+    </Preference>
+
+    <Preference
+        android:title="@string/share_title"
+        android:icon="@drawable/ic_share_24dp"
+        android:key="@string/share_key">
+    </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/information_settings_header">
+    <Preference
+        android:title="@string/privacy_policy_title"
+        android:icon="@drawable/ic_policy_24dp"
+        android:key="@string/privacy_policy_key">
+    </Preference>
+    <Preference
+        android:title="@string/app_version_title"
+        android:icon="@drawable/ic_info_24dp"
+        android:key="@string/app_version_key">
+    </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/downloads_updates_header">
+        <Preference
+            android:title="@string/download_location_title"
+            android:icon="@drawable/ic_folder_24dp"
+            android:key="@string/download_location_key">
+        </Preference>
+    <ListPreference
+        app:icon="@drawable/ic_update_24dp"
+        app:defaultValue="NIGHTLY"
+        app:entries="@array/update_entries"
+        app:entryValues="@array/update_values"
+        app:key="@string/update_channel_key"
+        app:title="@string/update_channel_title"
+        app:useSimpleSummaryProvider="true" />
+    <Preference
+        android:title="@string/update_youtubedl_title"
+        android:key="@string/update_youtubedl_key">
+    </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

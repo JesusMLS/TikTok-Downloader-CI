@@ -1,0 +1,10 @@
+<resources>
+    <string name="rate_key" translatable="false">rate_key</string>
+    <string name="share_key" translatable="false">share_key</string>
+    <string name="privacy_policy_key" translatable="false">privacy_policy_key</string>
+    <string name="download_location_key" translatable="false">download_location_key</string>
+    <string name="update_channel_key" translatable="false">update_channel_key</string>
+    <string name="update_youtubedl_key" translatable="false">update_youtubedl_key</string>
+    <string name="app_version_key" translatable="false">app_version_key</string>
+    <string name="dark_theme_key" translatable="false">dark_theme_key</string>
+</resources>

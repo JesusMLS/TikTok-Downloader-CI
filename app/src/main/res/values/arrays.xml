@@ -1,0 +1,14 @@
+<resources>
+    <!-- Update Preference -->
+    <string-array name="update_entries">
+        <item name="1">NIGHTLY</item>
+        <item name="2">STABLE</item>
+        <item name="3">MASTER</item>
+    </string-array>
+
+    <string-array name="update_values">
+        <item name="1">NIGHTLY</item>
+        <item name="2">STABLE</item>
+        <item name="3">MASTER</item>
+    </string-array>
+</resources>

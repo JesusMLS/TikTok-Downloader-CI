@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.tiktokdownloaderci.ui.home.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_downloads"
+        android:name="com.example.tiktokdownloaderci.ui.downloads.DownloadsFragment"
+        android:label="@string/title_downloads"
+        tools:layout="@layout/fragment_downloads" />
+
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="com.example.tiktokdownloaderci.ui.help.HelpFragment"
+        android:label="@string/title_help"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.tiktokdownloaderci.ui.settings.SettingsFragment"
+        android:label="@string/title_settings">
+        <action
+            android:id="@+id/action_settings_to_privacy_Policy"
+            app:destination="@id/navigation_privacy_policy"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_privacy_policy"
+        android:name="com.example.tiktokdownloaderci.ui.settings.privacy_policy.PrivacyPolicyFragment"
+        android:label="@string/title_privacy_policy"
+        tools:layout="@layout/fragment_privacy_policy"/>
+</navigation>

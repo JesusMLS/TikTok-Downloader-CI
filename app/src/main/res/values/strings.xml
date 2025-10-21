@@ -1,0 +1,169 @@
+<resources>
+    <!-- App Title -->
+    <string name="app_name">TikTok Downloader CI</string>
+
+    <!-- Fragment Titles -->
+    <string name="title_home">Home</string>
+    <string name="title_downloads">Downloads</string>
+    <string name="title_help">Help</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_privacy_policy">Privacy Policy</string>
+
+    <!-- Home Screen -->
+    <string name="home_download_instruction">Paste link here from TikTok to download it</string>
+    <string name="home_download_input_hint">TikTok Link goes here</string>
+    <string name="home_paste_button">Paste</string>
+    <string name="home_delete_button">Delete</string>
+    <string name="home_list_formats_button">Download</string>
+    <string name="home_show_real_url_button">Show URL</string>
+    <string name="home_download_format_worst">Download Video (Worst)</string>
+    <string name="home_download_format_best">Download Video (Best)</string>
+    <string name="home_download_format_audio">Download Audio (MP3)</string>
+    <string name="home_show_real_url_output_hint">URL</string>
+    <string name="home_delete_real_url_button">Delete</string>
+    <string name="home_open_real_url_browser">Open In Browser</string>
+    <string name="home_tool_usage_recommendations">*It\'s recommended to update the tool periodically from settings screen (three dots in the top bar)</string>
+
+
+    <!-- Preference Title -->
+    <string name="settings">Settings</string>
+    <!-- Preference Strings -->
+    <string name="general_settings_header">General</string>
+    <string name="rate_title">Rate This App</string>
+    <string name="share_title">Share This App</string>
+    <string name="information_settings_header">Information</string>
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="app_version_title">App Version</string>
+    <string name="downloads_updates_header">Downloads &amp; Updates</string>
+    <string name="download_location_title">Download Location</string>
+    <string name="update_channel_title">Update Channel</string>
+    <string name="update_youtubedl_title">Update yt-dlp</string>
+    <string name="value_not_set">Not set</string>
+    <string name="update_summary">Tap to update the tool</string>
+    <string name="dark_theme_title">Dark Theme</string>
+
+    <!-- Help Screen Strings -->
+    <string name="help_title_1">How to Use This App</string>
+    <string name="help_text_1">1. Go to the Home Screen from the bottom navigation bar.
+    \n2. Press the <b>Paste</b> button to insert a copied TikTok link.
+    \n3. Press the <b>Download</b> button to fetch details about the TikTok.
+    \n4. Select your preferred download option (check the card below for more details).
+    \n5. If you haven’t chosen a download folder yet, the app will prompt you to select one in Settings.
+    \n6. Once the download is complete, you can view your TikTok in the Downloads Screen.
+
+    \n\n<b>Notes</b>:
+    \n- If you encounter an error while downloading, try updating the yt-dlp tool from Settings (three dots on the top bar) and then retry.
+    \n- For persistent errors, try selecting a different download option.
+    \n- Pressing the <b>Delete</b> button will reset the text field and remove any pasted links or download options.
+    </string>
+    <string name="help_title_2">Download Options Guide</string>
+    <string name="help_text_2">1. <b>Download Video (Worst)</b> -> Downloads the video in the lowest quality available (may include a watermark).
+        \n2. <b>Download Video (Best)</b> -> Downloads the video in the highest quality available (usually without a watermark).
+        \n3. <b>Download Audio (MP3)</b> -> Downloads the audio in the best quality (converts the video to MP3 after download).
+    </string>
+
+    <string name="help_title_3">Downloads Screen Overview</string>
+    <string name="help_text_3">- <b>Tap</b> on a downloaded TikTok to open it in your Gallery app or choose a suitable app to view it.
+        \n- <b>Long press</b> a TikTok to bring up sharing options.
+        \n- Tap the <b>three dots</b> to open a menu with options to open, share, or delete the TikTok.
+    </string>
+
+    <string name="help_title_4">Settings Screen Overview</string>
+    <string name="help_text_4">1. <b>Dark Theme</b> -> Enables dark mode across the app.
+        \n2. <b>Rate This App</b> -> Opens the app’s page on the Google Play Store for rating.
+        \n3. <b>Share This App</b> -> Allows you to share the app’s Google Play Store link.
+        \n4. <b>Privacy Policy</b> -> Displays the app’s privacy policy.
+        \n5. <b>App Version</b> -> Shows the current version of the app.
+        \n6. <b>Download Location</b> -> Lets you view or change the folder for storing downloads.
+        \n7. <b>Update Channel</b> -> Selects the channel for yt-dlp updates (leave as default if unsure).
+        \n8. <b>Update yt-dlp</b> -> Updates the yt-dlp tool to the latest version.
+    </string>
+
+    <string name="help_title_5">Important Notes</string>
+    <string name="help_text_5">- This app only supports TikTok video/audio downloads. It does not work with other social networks.
+        \n- The app relies on yt-dlp and youtubedl-android tools. Any changes to these tools may affect app functionality.
+        \n- <b>Storage permissions are required</b> to save and manage downloaded files. Please grant these permissions for the app to work correctly.
+        \n- <b>Notification permissions are required</b> for some Android versions. Please grant these for full functionality.
+    </string>
+
+    <!-- Privacy Policy Screen Strings -->
+    <string name="privacy_policy_title_1">Important Information</string>
+    <string name="privacy_policy_text_1">This Privacy Policy explains how your personal information is handled when using the TikTok Downloader CI Application.
+        \n\n<b>Information We Collect:</b>
+        \nThe app does not collect personal data. Storage Permissions are only requested to save downloaded files.
+        \n\n<b>Downloaded Files:</b>
+        \nFiles are stored in your device’s external storage. Storage permissions are necessary to save files properly.
+        \n\n<b>Usage of Downloaded Files and Sharing Features:</b>
+        \nThe app does not access or store any personal information related to the content of the downloaded files.
+        \nThe app does not have access to or control over the content shared through any external application.
+        \n\n<b>Changes to This Policy:</b>
+        \nWe may update this policy occasionally. Check this page for updates. Changes are effective immediately upon posting.
+        \n\n<b>By using the TikTok Downloader CI Application, you agree to the terms outlined in this policy.</b>
+    </string>
+
+    <!-- Other Strings-->
+    <string name="initialization_fail">Failed to initialize tools</string>
+    <string name="update_in_progress">Update is already in progress</string>
+    <string name="update_queued">Check notifications for update status</string>
+    <string name="update_function_error">Error occurred while updating</string>
+    <string name="update_notification_title">yt-dlp Update</string>
+    <string name="update_notification_text_1">Starting tool update</string>
+    <string name="update_notification_text_2">Update completed successfully</string>
+    <string name="update_notification_text_3">Tool is up to date</string>
+    <string name="update_worker_error">Error occurred during the update process</string>
+    <string name="update_notification_channel_name">yt-dlp Update Notification Channel</string>
+    <string name="update_notification_description">Notification channel created only for yt-dlp Update Notifications</string>
+    <string name="download_notification_text_1">Download starting</string>
+    <string name="download_notification_text_2">Downloading in progress</string>
+    <string name="download_notification_text_3">Download completed</string>
+    <string name="download_cancel_button_text">Cancel download</string>
+    <string name="download_worker_error">Unexpected error occurred during the download process</string>
+    <string name="download_notification_channel_name">Downloads Notification Channel</string>
+    <string name="download_notification_description">Notification channel dedicated to download updates and alerts</string>
+    <string name="download_task_killed">Download task cancelled successfully</string>
+    <string name="invalid_download_url">Provided TikTok URL is invalid. Verify and try again</string>
+    <string name="invalid_download_location">Invalid download location, update it in Settings</string>
+    <string name="storage_permissions_granted">Storage permissions successfully granted</string>
+    <string name="storage_permissions_denied">Storage permissions were denied</string>
+    <string name="notifications_permissions_granted">Notification permissions successfully granted</string>
+    <string name="notifications_permissions_denied">Notification permissions were denied</string>
+    <string name="verify_function_error">Error occurred while verifying the provided URL</string>
+    <string name="video_download_in_progress">Video download is already in progress</string>
+    <string name="download_queued">Check notifications for progress updates</string>
+    <string name="video_download_finished">Video download has been successfully completed</string>
+    <string name="video_download_function_error">Error occurred during the video download process</string>
+    <string name="audio_download_in_progress">Audio download already in progress</string>
+    <string name="audio_download_finished">Audio download has been successfully completed</string>
+    <string name="audio_download_function_error">Error occurred during the audio download process</string>
+    <string name="file_not_found">File could not be found on your device</string>
+    <string name="available_app_not_found">No suitable application found to open the file</string>
+    <string name="share_chooser_title">Choose an app to share this TikTok</string>
+    <string name="delete_task_running">Delete task already in progress</string>
+    <string name="delete_task_queued">The deletion task has been queued</string>
+    <string name="delete_function_error">An error occurred while attempting to delete the item</string>
+    <string name="information_fetch_error">An error occurred while trying to fetch the information</string>
+    <string name="media_already_downloaded">This download already exists in your history</string>
+    <string name="content_deletion_notification_title">Content Deletion</string>
+    <string name="content_deletion_notification_text_1">A content deletion task has started</string>
+    <string name="content_deletion_notification_text_2">Content deletion task has been completed successfully</string>
+    <string name="file_not_found_2">File does not exist, but it has been removed from the list</string>
+    <string name="file_deletion_success">File has been deleted successfully from your device</string>
+    <string name="delete_worker_error">Error during the content deletion process</string>
+    <string name="delete_notification_channel_name">Delete Notification Channel</string>
+    <string name="delete_notification_description">Notification channel dedicated to alerts about content deletion tasks</string>
+    <string name="download_notification_text_4">The download has been added to your history</string>
+    <string name="file_exits_in_directory">File has been added to your history</string>
+    <string name="file_delete_manually">Item deleted from list. Delete the file manually</string>
+    <string name="scoped_storage_1">Scoped Storage Restrictions Detected</string>
+    <string name="scoped_storage_2">Please only select a folder in Download or Documents</string>
+
+    <string name="placeholder">Test</string>
+
+    <!-- Menu Strings -->
+    <string name="open_item">Open</string>
+    <string name="delete_item">Delete</string>
+    <string name="share_item">Share</string>
+
+
+
+</resources>
