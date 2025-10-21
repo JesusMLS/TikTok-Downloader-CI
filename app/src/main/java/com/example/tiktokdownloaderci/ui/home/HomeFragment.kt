@@ -426,7 +426,7 @@ class HomeFragment : Fragment() {
                 //Se verifica el URL mediante el uso de una expresión regular, la cual solo admite URLS pertenecientes a la plataforma en específico.
                 //En este caso la plataforma es TikTok
                 //Por lo que esta expresión regular verifica si el URL es perteneciente a algún URL de TikTok. (entre todos los diferentes URLS que tiene la plataforma)
-                val regex = "^https:\\/\\/(?:m|www|vm)?\\.?tiktok\\.com\\/((?:.*\\b(?:(?:usr|v|embed|user|video)\\/|\\?shareId=|\\&item_id=)(\\d+))|\\w+)"
+                val regex = "^https:\\/\\/(?:m|www|vm|vt)?\\.?tiktok\\.com\\/((?:.*\\b(?:(?:usr|v|embed|user|video)\\/|\\?shareId=|\\&item_id=)(\\d+))|\\w+)"
                 val URL_Pattern : Pattern = Pattern.compile(regex)
                 val URL_Matches : Matcher = URL_Pattern.matcher(URL)
                 val result: Boolean = URL_Matches.matches()

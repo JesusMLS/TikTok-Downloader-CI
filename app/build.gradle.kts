@@ -63,7 +63,7 @@ android {
 dependencies {
     val room_version = "2.6.1"
     val picasso_version = "2.8"
-    val youtubedl_version = "0.17.1"
+    val youtubedl_version = "0.18.0"
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
